@@ -1,0 +1,10 @@
+﻿<Window x:Class="Program8Part2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="300"
+        MouseDown="MainWindow_OnMouseDown">
+    <Canvas x:Name="Canvas1" Height="300" Width="300">
+        <Ellipse x:Name="Ellipse1" Height="50" Width="50"></Ellipse>
+        <Line StrokeThickness="1" X1="150" Y1="0" X2="150" Y2="300" Stroke="Black"></Line>
+    </Canvas>
+</Window>
